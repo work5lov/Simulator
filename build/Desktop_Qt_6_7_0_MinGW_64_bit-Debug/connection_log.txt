@@ -1,0 +1,19 @@
+Connection attempt: 46.35.178.93 - Подключен - Country: Германия
+Connection attempt: 46.35.178.93 - Отключен - Country: Германия
+Connection attempt: 64.114.66.31 - Подключен - Country: США
+Connection attempt: 64.114.66.31 - Отключен - Country: США
+Connection attempt: 23.185.145.104 - Connection error - Country: США
+Connection attempt: 23.185.145.104 - Connection error - Country: США
+Connection attempt: 23.185.145.104 - Подключен - Country: США
+Connection attempt: 64.202.97.207 - Подключен - Country: США
+Connection attempt: 64.202.97.207 - Отключен - Country: США
+Connection attempt: 64.202.97.207 - Connection error - Country: США
+Connection attempt: 86.53.173.91 - Connection error - Country: Великобритания
+Connection attempt: 86.53.173.91 - Connection error - Country: Великобритания
+Connection attempt: 88.39.176.117 - Подключен - Country: Франция
+Connection attempt: 64.177.237.215 - Подключен - Country: США
+Connection attempt: 23.81.174.253 - Подключен - Country: США
+Connection attempt: 23.81.174.253 - Отключен - Country: США
+Connection attempt: 23.81.174.253 - Connection error - Country: США
+Connection attempt: 23.81.174.253 - Подключен - Country: США
+Connection attempt: 23.81.174.253 - Отключен - Country: США

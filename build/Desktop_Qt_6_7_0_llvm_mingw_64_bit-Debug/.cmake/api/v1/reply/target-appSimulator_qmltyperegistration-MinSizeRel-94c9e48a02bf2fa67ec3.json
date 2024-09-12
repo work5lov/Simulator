@@ -1,0 +1,118 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_qml_type_registration",
+			"qt6_add_qml_module",
+			"qt_add_qml_module"
+		],
+		"files" : 
+		[
+			"C:/Qt/new/6.7.0/llvm-mingw_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 776,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 541,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3018,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "appSimulator_automoc_json_extraction::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "appSimulator_qmltyperegistration::@6890427a1f51a3e7e1df",
+	"name" : "appSimulator_qmltyperegistration",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/appSimulator_qmltyperegistration",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/4fb8fc6c8e52715c1f0b0a55cd365030/appSimulator_qmltyperegistration.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/3124c753fcba612b18971984a32bfdbf/appsimulator_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/f422117c16f9cbf51afb342efd8c73a2/qt6appsimulator_metatypes.json.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/f422117c16f9cbf51afb342efd8c73a2/qt6appsimulator_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,24 @@
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_MINGW_64_BIT-DEBUG\CMAKEFILES\8039C397561170224FE3F81E03EC0904\QT6_QMLPLUGINS_IMPORTS_APPSIMULATOR.CMAKE.RULE
+setlocal
+cd M:\progs\Qt\Simulator
+if %errorlevel% neq 0 goto :cmEnd
+M:
+if %errorlevel% neq 0 goto :cmEnd
+call M:\git\GitHub\Simulator\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/new/6.7.0/mingw_64/./bin/qmlimportscanner.exe @M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appSimulator.rsp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_MINGW_64_BIT-DEBUG\CMAKEFILES\13293D094FE60DF19B779FD85C1144ED\GENERATE.STAMP.RULE
+setlocal
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -SM:/progs/Qt/Simulator -BM:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Simulator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

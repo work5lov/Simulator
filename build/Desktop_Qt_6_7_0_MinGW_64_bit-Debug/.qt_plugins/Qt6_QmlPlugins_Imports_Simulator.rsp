@@ -1,0 +1,9 @@
+-rootPath
+M:/progs/Qt/Simulator
+-cmake-output
+-output-file
+M:/progs/Qt/Simulator/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_Simulator.cmake
+-importPath
+M:/progs/Qt/Simulator/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/new/6.7.0/mingw_64/./qml

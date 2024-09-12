@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="M:\git\GitHub\Simulator\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles\c11a205bc883048480ec1ab9b0a7152c\main.qml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\progs\Qt\Simulator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="M:\git\GitHub\Simulator\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\Simulator\main.qml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CE58A9A7-6DF5-306E-A46D-ED42D3D73443}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

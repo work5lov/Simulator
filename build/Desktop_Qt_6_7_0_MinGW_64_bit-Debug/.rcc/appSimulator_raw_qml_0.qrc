@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Simulator/">
+    <file alias="main.qml">M:/progs/Qt/Simulator/main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,24 @@
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_LLVM_MINGW_64_BIT-DEBUG\CMAKEFILES\0ABEC69166CEC2B4079C7DD07A077A19\MAIN.QML.RULE
+setlocal
+cd M:\progs\Qt\Simulator
+if %errorlevel% neq 0 goto :cmEnd
+M:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -E copy M:/progs/Qt/Simulator/main.qml M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/Simulator/main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\PROGS\QT\SIMULATOR\CMAKELISTS.TXT
+setlocal
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -SM:/progs/Qt/Simulator -BM:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug --check-stamp-file M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

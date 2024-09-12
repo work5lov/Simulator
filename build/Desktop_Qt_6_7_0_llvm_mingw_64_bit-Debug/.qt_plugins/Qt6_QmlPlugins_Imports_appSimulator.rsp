@@ -1,0 +1,14 @@
+-rootPath
+M:/progs/Qt/Simulator
+-cmake-output
+-output-file
+M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appSimulator.cmake
+-importPath
+M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/Simulator
+-importPath
+M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug
+-importPath
+C:/Qt/new/6.7.0/llvm-mingw_64/./qml
+-qrcFiles
+M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qmake_Simulator.qrc
+M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/appSimulator_raw_qml_0.qrc

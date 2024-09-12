@@ -1,0 +1,10 @@
+--bare
+-I
+M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug
+-I
+C:/Qt/new/6.7.0/llvm-mingw_64/./qml
+--resource
+M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qmake_Simulator.qrc
+--resource
+M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/appSimulator_raw_qml_0.qrc
+M:/progs/Qt/Simulator/main.qml

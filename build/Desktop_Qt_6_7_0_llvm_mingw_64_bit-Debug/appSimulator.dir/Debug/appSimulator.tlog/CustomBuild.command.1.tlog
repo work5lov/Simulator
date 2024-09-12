@@ -1,0 +1,88 @@
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_LLVM_MINGW_64_BIT-DEBUG\CMAKEFILES\F422117C16F9CBF51AFB342EFD8C73A2\QT6APPSIMULATOR_METATYPES.JSON.GEN.RULE
+setlocal
+C:\Qt\new\6.7.0\llvm-mingw_64\.\bin\moc.exe -o M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/meta_types/qt6appsimulator_metatypes.json.gen --collect-json @M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/meta_types/appSimulator_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -E copy_if_different M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/meta_types/qt6appsimulator_metatypes.json.gen M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/meta_types/qt6appsimulator_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_LLVM_MINGW_64_BIT-DEBUG\CMAKEFILES\F422117C16F9CBF51AFB342EFD8C73A2\QT6APPSIMULATOR_METATYPES.JSON.RULE
+setlocal
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -E true
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_LLVM_MINGW_64_BIT-DEBUG\CMAKEFILES\3124C753FCBA612B18971984A32BFDBF\APPSIMULATOR_QMLTYPEREGISTRATIONS.CPP.RULE
+setlocal
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/new/6.7.0/llvm-mingw_64/./bin/qmltyperegistrar.exe --generate-qmltypes=M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/Simulator/appSimulator.qmltypes --import-name=Simulator --major-version=1 --minor-version=0 @M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/qmltypes/appSimulator_foreign_types.txt -o M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/appsimulator_qmltyperegistrations.cpp M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/meta_types/qt6appsimulator_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -E make_directory M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.generated
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -E touch M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.generated/appSimulator.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_LLVM_MINGW_64_BIT-DEBUG\CMAKEFILES\072ECA1487BADD47511D6FAC2C697D60\QRC_QMAKE_SIMULATOR.CPP.RULE
+setlocal
+C:\Qt\new\6.7.0\llvm-mingw_64\.\bin\rcc.exe --output M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qrc_qmake_Simulator.cpp --name qmake_Simulator M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qmake_Simulator.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_LLVM_MINGW_64_BIT-DEBUG\CMAKEFILES\A494B3D1CA9E14282441454338FA5C51\APPSIMULATOR_QMLCACHE_LOADER.CPP.RULE
+setlocal
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/new/6.7.0/llvm-mingw_64/./bin/qmlcachegen.exe --resource-name qmlcache_appSimulator -o M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appSimulator_qmlcache_loader.cpp @M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appSimulator_qml_loader_file_list.rsp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_LLVM_MINGW_64_BIT-DEBUG\CMAKEFILES\A494B3D1CA9E14282441454338FA5C51\APPSIMULATOR_MAIN_QML.CPP.RULE
+setlocal
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -E make_directory M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat C:/Qt/new/6.7.0/llvm-mingw_64/./bin/qmlcachegen.exe --bare --resource-path /Simulator/main.qml -I M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug -I C:/Qt/new/6.7.0/llvm-mingw_64/./qml -i M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/Simulator/qmldir --resource M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qmake_Simulator.qrc --resource M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/appSimulator_raw_qml_0.qrc -o M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qmlcache/appSimulator_main_qml.cpp M:/progs/Qt/Simulator/main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_LLVM_MINGW_64_BIT-DEBUG\CMAKEFILES\072ECA1487BADD47511D6FAC2C697D60\QRC_APPSIMULATOR_RAW_QML_0.CPP.RULE
+setlocal
+C:\Qt\new\6.7.0\llvm-mingw_64\.\bin\rcc.exe --output M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qrc_appSimulator_raw_qml_0.cpp --name appSimulator_raw_qml_0 M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/appSimulator_raw_qml_0.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\PROGS\QT\SIMULATOR\CMAKELISTS.TXT
+setlocal
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -SM:/progs/Qt/Simulator -BM:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug --check-stamp-file M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

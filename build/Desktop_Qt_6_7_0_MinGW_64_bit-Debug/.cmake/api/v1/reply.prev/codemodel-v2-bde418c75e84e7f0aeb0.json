@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-077fccb767c4bff43141.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Simulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simulator-Debug-920a39d766fe7b57ba05.json",
+					"name" : "Simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Simulator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simulator_autogen-Debug-2b822f6ff779486b590f.json",
+					"name" : "Simulator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Simulator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simulator_autogen_timestamp_deps-Debug-2c31810fb7c2531e1681.json",
+					"name" : "Simulator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Simulator_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simulator_qmlimportscan-Debug-594b37660ef8dc59e5f0.json",
+					"name" : "Simulator_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "M:/progs/Qt/Simulator/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "M:/progs/Qt/Simulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

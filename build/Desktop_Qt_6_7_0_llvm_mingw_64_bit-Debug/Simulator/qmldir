@@ -1,0 +1,4 @@
+module Simulator
+typeinfo appSimulator.qmltypes
+prefer :/Simulator/
+

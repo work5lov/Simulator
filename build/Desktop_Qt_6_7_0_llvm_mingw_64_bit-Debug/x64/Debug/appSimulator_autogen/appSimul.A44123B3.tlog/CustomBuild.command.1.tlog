@@ -1,0 +1,24 @@
+^M:\GIT\GITHUB\SIMULATOR\BUILD\DESKTOP_QT_6_7_0_LLVM_MINGW_64_BIT-DEBUG\CMAKEFILES\4FB8FC6C8E52715C1F0B0A55CD365030\APPSIMULATOR_AUTOGEN.RULE
+setlocal
+cd M:\git\GitHub\Simulator\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug
+if %errorlevel% neq 0 goto :cmEnd
+M:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -E cmake_autogen M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/appSimulator_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^M:\PROGS\QT\SIMULATOR\CMAKELISTS.TXT
+setlocal
+C:\Qt\new\Tools\CMake_64\bin\cmake.exe -SM:/progs/Qt/Simulator -BM:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug --check-stamp-file M:/git/GitHub/Simulator/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="M:\git\GitHub\Simulator\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles\f422117c16f9cbf51afb342efd8c73a2\qt6appsimulator_metatypes.json.gen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\git\GitHub\Simulator\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles\f422117c16f9cbf51afb342efd8c73a2\qt6appsimulator_metatypes.json.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\git\GitHub\Simulator\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles\3124c753fcba612b18971984a32bfdbf\appsimulator_qmltyperegistrations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\git\GitHub\Simulator\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles\4fb8fc6c8e52715c1f0b0a55cd365030\appSimulator_qmltyperegistration.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="M:\progs\Qt\Simulator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="M:\git\GitHub\Simulator\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles\appSimulator_qmltyperegistration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{348C9E54-D570-3B00-86E6-4335CF73F8F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
